@@ -1,0 +1,92 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-align: center; */
+}
+
+nav {
+    margin: 0;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.createPostPage {
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: grid;
+    place-items: center;
+}
+
+.cpContainer {
+    width: 500px;
+    height: auto;
+    padding: 20px;
+    background-color: black;
+    border-radius: 12px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.cpContainer h1 {
+    text-align: center;
+}
+
+.cpContainer label {
+    font-size: 25px;
+}
+
+.cpContainer .inputGp {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputGp input,
+.inputGp textarea {
+    font-size: 18px;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.inputGp input {
+    height: 40px;
+}
+
+.inputGp textarea {
+    height: 150px;
+    font-style: italic;
+}
+
+.cpContainer button {
+    margin-top: 20px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.cpContainer button:disabled {
+    color: #adadad;
+    font-size: 20px;
+}
+
+input,
+textarea {
+    margin-top: 5px;
+}
