@@ -1,0 +1,23 @@
+.profile-upper{
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.profile-ques{
+    background-color: aliceblue;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin: 15px 15px;
+}
+
+@media only screen and (max-width:500px){
+    .profile-upper{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,42 @@
+.feed-container {
+  display: flex;
+  width: 75%;
+  margin: auto;
+  margin-top: 50px;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid lightgrey;
+  cursor: pointer;
+}
+.feed-container:hover {
+  border: 1px solid gray;
+}
+.feedUser-info {
+  display: flex;
+  border: 1px solid lightgrey;
+  background-color: aliceblue;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.feedUser-info > h5 {
+  color: rgb(129, 129, 129);
+  font-weight: 300;
+  margin-left: 10px;
+}
+
+.feed-ques {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.feed-ques > p {
+  color: gray;
+  font-weight: bold;
+  font-size: large;
+}

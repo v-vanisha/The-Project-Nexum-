@@ -1,0 +1,74 @@
+.ans-container{
+  display: flex;
+  width: 71vw;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  /* padding-right: 10px; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: aliceblue;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  position: relative;
+  height: fit-content;
+  min-height: 50px;
+}
+
+.ans-info {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  padding-left: 10px;
+  top:-26px;
+}
+
+.ans-info > h5 {
+  margin-left: 15px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.ans-info > h5:hover {
+  text-decoration: underline;
+}
+
+.ans-info > small {
+  margin-left: 10px;
+}
+
+
+
+/* This css took my 3 hours */
+.ans-text{
+  overflow: auto;
+  word-wrap: break-word;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  padding-top: 20px;
+}
+
+.ans-icons{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  left: 10px;
+  bottom: 4px;
+  padding-top: 20px;
+}
+
+.ans-icons > .delete-icon > .MuiSvgIcon-root:hover{
+  color: red;
+}
+
+.ans-icons > .MuiSvgIcon-root {
+  color: gray;
+  cursor: pointer;
+  padding-right: 20px;
+}
+
+.ans-icons > .MuiSvgIcon-root:hover {
+  color: red;
+  cursor: pointer;
+}

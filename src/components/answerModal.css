@@ -1,0 +1,8 @@
+.modal-wrapper{
+    pointer-events: none;
+}
+.modal-answer{
+    pointer-events: all;
+
+}
+
