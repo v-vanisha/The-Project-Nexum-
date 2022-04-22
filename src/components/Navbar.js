@@ -202,6 +202,16 @@ const Navbar = ({userData}) => {
                 />
               
             </Search> */}
+            <Link to ="/BlogHome">
+              <Button
+                variant="contained"
+                color="success"
+                style={{ height: "50px" }}
+                onClick = {()=>{handleOpen()}}
+              >
+              Blogs
+              </Button>
+            </Link>
             <Button
               variant="contained"
               color="success"
